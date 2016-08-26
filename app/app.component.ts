@@ -13,6 +13,8 @@ export class AppComponent {
   name = 'Ryan';
   wardsColor = 'red';
 
+
+
   changeSuitColor() {
     this.wardsColor = this.wardsColor === 'red' ? 'blue' : 'red';
   }
